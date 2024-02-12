@@ -1,0 +1,18 @@
+.button{
+    background-color: $base-primary;
+    border-radius: 4px;
+    color: $base-white;
+    border: none;
+    padding: 0;
+    box-sizing: border-box;
+    &:focus,
+    &:hover{
+        background-color: $primary-light;
+    }
+    &:active{
+        background-color: $active-button;
+    }
+    &:disabled{
+        background-color:$base-grey;
+    }
+}
