@@ -1,0 +1,37 @@
+.map__box {
+  min-height: 420px;
+  min-width: 320px;
+  background-image: url("../../images/map@1x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../../images/map@2x.jpg");
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .map__box {
+    min-height: 480px;
+    min-width: 768px;
+    background-image: url("../../images/map_tablet@1x.jpg");
+
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../../images/map_tablet@2x.jpg");
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .map__box {
+    min-height: 540px;
+    min-width: 1440px;
+    background-image: url("../../images/map_desktop@1x.jpg");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../../images/map_desktop@2x.jpg");
+    }
+  }
+}

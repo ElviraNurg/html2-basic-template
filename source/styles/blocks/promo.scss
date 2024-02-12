@@ -1,298 +1,319 @@
 .promo__list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .promo__list-item {
-    min-width: 320px;
-    min-height: 656px;
+  min-width: 320px;
+  min-height: 656px;
 }
 
 .promo__list-item-box,
 .promo__list-title,
 .promo__list-description,
 .promo__list-text {
-    margin: 0 auto;
-    font-weight: 700;
-    text-align: center;
-    color: $base-black;
+  margin: 0 auto;
+  font-weight: 700;
+  text-align: center;
+  color: $base-black;
 }
 
 .promo__list-img-box {
-    padding-top: 20px;
-    width: 280px;
-    height: 280px;
-    margin: 0 auto;
+  padding-top: 20px;
+  width: 280px;
+  height: 280px;
+  margin: 0 auto;
 }
 
-.promo__list-img{
-    width: 100%;
-    height: 100%;
+.promo__list-img {
+  width: 100%;
+  height: 100%;
 }
 
 .promo__list-text {
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: $base-primary;
-    margin: 10px 20px 0 20px;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $base-primary;
+  margin: 10px 20px 0;
 }
 
 .promo__list-title {
-    font-size: 36px;
-    line-height: 48px;
-    letter-spacing: 0.02em;
-    margin: 4px 20px 10px 20px;
-    min-height: 96px;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  margin: 4px 20px 10px;
+  min-height: 96px;
 }
 
 .promo__list-description {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    min-height: 100px;
-    margin: 0 20px 20px 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  min-height: 100px;
+  margin: 0 20px 20px;
 }
 
 .promo__list-price-box {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .promo__list-old-price,
 .promo__list-new-price {
-    margin: 0;
-    min-height: 32px;
-    line-height: 32px;
+  margin: 0;
+  min-height: 32px;
+  line-height: 32px;
+  margin-top: 5px;
 }
 
 .promo__list-old-price {
-    min-width: 40px;
-    font-weight: 400;
-    font-size: 16px;
-    text-decoration-line: line-through;
-    color: $base-primary;
+  min-width: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration-line: line-through;
+  color: $base-primary;
 }
 
 .promo__list-new-price {
-    min-width: 51px;
-    font-weight: 600;
-    font-size: 20px;
-    color: $base-black;
+  min-width: 51px;
+  font-weight: 600;
+  font-size: 20px;
+  color: $base-black;
+  margin-left: 10px;
 }
 
 .promo__list-buy {
-    min-width: 113px;
-    min-height: 40px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    margin-left: 20px;
+  min-width: 113px;
+  min-height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin-left: 20px;
 }
 
 .promo__controls-box {
-    display: none;
+  display: none;
 }
 
 .promo__wrapper {
-    min-height: 656px;
-    position: relative;
-    min-width: 320px;
+  min-height: 656px;
+  position: relative;
+  min-width: 320px;
 }
 
 .promo__button-prev,
 .promo__button-next {
-    position: absolute;
-    left: 0;
-    right: auto;
-    top: 0;
-    height: 100%;
-    width: 20px;
-    padding: 0;
-    border: none;
+  position: absolute;
+  left: 0;
+  right: auto;
+  top: 0;
+  height: 100%;
+  width: 20px;
+  padding: 0;
+  border: none;
 }
 
-
-
 .flat-white {
-    background-color: $flat-white;
+  background-color: $flat-white;
 
-    &:hover,
-    &:focus {
-        background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
-    }
+  &:hover,
+  &:focus {
+    background: linear-gradient(90deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  }
 
-    &:active {
-        background: linear-gradient(90deg, rgba(120, 89, 207, 0.25) 0%, rgba(120, 89, 207, 0) 100%);
-    }
+  &:active {
+    background: linear-gradient(90deg, rgba(120, 89, 207, 0.25) 0%, rgba(120, 89, 207, 0) 100%);
+  }
 }
 
 .lavender {
-    background-color: $lavender;
+  background-color: $lavender;
 
-    &:hover,
-    &:focus {
-        background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
-    }
+  &:hover,
+  &:focus {
+    background: linear-gradient(90deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  }
 
-    &:active {
-        background: linear-gradient(90deg, rgba(120, 89, 207, 0.25) 0%, rgba(120, 89, 207, 0) 100%);
-    }
+  &:active {
+    background: linear-gradient(90deg, rgba(120, 89, 207, 0.25) 0%, rgba(120, 89, 207, 0) 100%);
+  }
 }
+
 .espresso {
-    background-color: $espresso;
+  background-color: $espresso;
 
-    &:hover,
-    &:focus {
-        background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
-    }
+  &:hover,
+  &:focus {
+    background: linear-gradient(90deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  }
 
-    &:active {
-        background: linear-gradient(90deg, rgba(120, 89, 207, 0.25) 0%, rgba(120, 89, 207, 0) 100%);
-    }
+  &:active {
+    background: linear-gradient(90deg, rgba(120, 89, 207, 0.25) 0%, rgba(120, 89, 207, 0) 100%);
+  }
 }
 
 .promo__button-prev svg,
 .promo__button-next svg {
-    fill: $base-primary;
+  fill: $base-primary;
 }
 
 .promo__button-prev:disabled svg,
-.promo__button-next:disabled svg{
-    fill: $base-grey;
+.promo__button-next:disabled svg {
+  fill: $base-grey;
 }
 
 .promo__button-next {
-    right: 0;
-    left: auto;
+  right: 0;
+  left: auto;
 }
 
-@media(min-width:$tablet-width) {
-    .promo__list-item {
-        display: flex;
-        flex-direction: column;
-        min-width: 768px;
-        min-height: 828px;
-    }
-
-    .promo__list-text {
-        margin-top: 60px;
-    }
-
-    .promo__list-title {
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 80px;
-        margin: 4px 80px 16px 80px;
-        min-height: 80px;
-    }
-
-    .promo__list-description {
-        font-size: 20px;
-        line-height: 32px;
-        min-height: 96px;
-        margin: 0 80px 20px 80px;
-    }
-
-    .promo__list-buy {
-        margin-bottom: 20px;
-        margin-left: 20px;
-    }
-
-    .promo__list-img-box {
-        padding-top: 0;
-        width: 476px;
-        height: 476px;
-        order: 2;
-    }
-
-    .promo__button-prev,
-    .promo__button-next {
-        height: 77%;
-    }
+.promo__list-description-tablet {
+  display: none;
 }
 
-@media(min-width:$desktop-width) {
+@media (min-width: $tablet-width) {
+  .promo__list-item {
+    display: flex;
+    flex-direction: column;
+    min-width: 768px;
+    min-height: 828px;
+  }
 
+  .promo__list-text {
+    margin-top: 60px;
+  }
 
-    .promo__list-item {
-        min-width: 1280px;
-        min-height: 714px;
-        flex-direction: row;
-        margin: 0 80px;
+  .promo__list-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;
+    margin: 4px 80px 16px;
+    min-height: 80px;
+  }
+
+  .promo__list-description {
+    font-size: 20px;
+    line-height: 32px;
+    min-height: 96px;
+    margin: 0 80px 20px;
+    text-align: center;
+  }
+
+  .promo__list-description-tablet {
+    display: block;
+  }
+
+  .promo__list-buy {
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .promo__list-img-box {
+    padding-top: 0;
+    width: 476px;
+    height: 476px;
+    order: 2;
+  }
+
+  .promo__button-prev,
+  .promo__button-next {
+    height: 77%;
+    width: 80px;
+  }
+
+  .promo__button-prev svg,
+  .promo__button-next svg {
+    margin-top: 6px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .promo__list-item {
+    min-width: 1280px;
+    min-height: 714px;
+    flex-direction: row;
+    margin: 0 80px;
+  }
+
+  .promo__list-img-box {
+    padding-top: 30px;
+    width: 600px;
+    height: 600px;
+    order: 0;
+  }
+
+  .promo__list-info-box {
+    width: 625px;
+  }
+
+  .promo__list-price-box {
+    justify-content: start;
+  }
+
+  .promo__list-text,
+  .promo__list-title,
+  .promo__list-description {
+    text-align: left;
+  }
+
+  .promo__list-text {
+    margin: 180px 0 0;
+    min-width: 74px;
+    min-height: 16px;
+  }
+
+  .promo__list-title {
+    margin: 4px 0 16px;
+  }
+
+  .promo__list-description {
+    margin: 16px 0 40px;
+  }
+
+  .promo__list-new-price {
+    margin-left: 7px;
+  }
+
+  .promo__wrapper {
+    position: relative;
+  }
+
+  .promo__controls-box {
+    display: flex;
+    min-width: 202px;
+    min-height: 24px;
+    gap: 8px;
+    position: absolute;
+    left: 42.99%;
+    right: 42.99%;
+    top: 90%;
+    bottom: 10%;
+    z-index: 0;
+  }
+
+  .promo__controls {
+    background-color: $base-white;
+    width: 62px;
+    height: 4px;
+
+    &:hover,
+    &:focus {
+      background-color: rgba(120, 89, 207, 0.25);
     }
+  }
 
-    .promo__list-img-box {
-        padding-top: 30px;
-        width: 600px;
-        height: 600px;
-        order: 0;
-        margin: 0;
-    }
+  .promo__controls-active {
 
-    .promo__list-info-box {
-        width: 625px;
-    }
+    background-color: $base-primary;
+  }
 
-    .promo__list-text,
-    .promo__list-title,
-    .promo__list-description {
-        text-align: left;
-    }
-
-    .promo__list-text {
-        margin: 180px 0 0 0;
-        min-width: 74px;
-        min-height: 16px;
-    }
-
-    .promo__list-title {
-        margin: 4px 0 16px 0;
-    }
-
-    .promo__list-description {
-        margin: 16px 0 40px 0;
-    }
-
-    .promo__wrapper {
-        position: relative;
-    }
-
-    .promo__controls-box {
-        display: flex;
-        min-width: 202px;
-        min-height: 24px;
-        gap: 8px;
-        position: absolute;
-        left: 42.99%;
-        right: 42.99%;
-        top: 88.24%;
-        bottom: 8.4%;
-        z-index: 0;
-    }
-
-    .promo__controls {
-        background-color: $base-white;
-        width: 62px;
-        height: 4px;
-
-        &:hover,
-        &:focus {
-            background-color: rgba(120, 89, 207, 0.25);
-        }
-    }
-
-    .promo__controls-active {
-
-        background-color: $base-primary;
-    }
-
-    .promo__button-prev,
-    .promo__button-next {
-        height: 100%;
-        width: 80px;
-    }
+  .promo__button-prev,
+  .promo__button-next {
+    height: 100%;
+    width: 80px;
+  }
 }

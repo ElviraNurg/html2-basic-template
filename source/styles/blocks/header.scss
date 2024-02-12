@@ -38,7 +38,7 @@
 .header__user-cart-link {
   width: 60px;
   height: 60px;
-  justify-content: center;
+  align-items: center;
   display: flex;
 
   &:active {
@@ -46,15 +46,10 @@
   }
 }
 
-.header__user-page-link svg,
-.header__user-cart-link svg {
-  align-self: center;
+.header__user-page-svg-box,
+.header__user-cart-svg-box {
+  margin: 0 auto;
   fill: $base-black;
-}
-
-.header__user-page-link:active svg,
-.header__user-cart-link:active svg {
-  fill: $base-primary;
 }
 
 .header__user-page-link span,
@@ -63,7 +58,7 @@
   opacity: 0;
 }
 
-@media(min-width:$tablet-width) {
+@media (min-width: $tablet-width) {
   .header {
     min-height: 80px;
   }
@@ -73,6 +68,7 @@
   }
 
   .header__user-navigation {
+    position: relative;
     order: 2;
     right: 20px;
   }
@@ -84,9 +80,13 @@
   }
 }
 
-@media(min-width:$desktop-width) {
+@media (min-width: $desktop-width) {
   .header {
     padding-left: 40px;
+  }
+
+  .header__logo {
+    margin: 0;
   }
 
   .header__logo-image {
@@ -105,9 +105,15 @@
   }
 
   .header__user-navigation {
-    right: 40px;
+    margin-right: 20px;
     min-width: 261px;
     gap: 20px;
+  }
+
+  .header__user-page-svg-box,
+  .header__user-cart-svg-box {
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .header__user-page-link span,
@@ -124,14 +130,23 @@
     color: $base-black;
   }
 
-  .header__user-page-link:active span,
-  .header__user-cart-link:active span {
-    color: $base-primary;
+
+  .header__user-page-link:active .header__user-page-svg-box,
+  .header__user-cart-link:active .header__user-cart-svg-box,
+  .header__user-page-link:hover .header__user-page-svg-box,
+  .header__user-cart-link:hover .header__user-cart-svg-box,
+  .header__user-page-link:focus .header__user-page-svg-box,
+  .header__user-cart-link:focus .header__user-cart-svg-box {
+    fill: $base-primary;
   }
 
-  .header__user-page-link:active svg,
-  .header__user-cart-link:active svg {
-    fill: $base-primary;
+  .header__user-page-link:active span,
+  .header__user-cart-link:active span,
+  .header__user-page-link:hover span,
+  .header__user-cart-link:hover span,
+  .header__user-page-link:focus span,
+  .header__user-cart-link:focus span {
+    color: $base-primary;
   }
 
   .header__user-page-link,
@@ -140,15 +155,10 @@
     height: 80px;
     gap: 5px;
     text-decoration: none;
-
-    &:active {
-      background-color: $base-secondary;
-    }
+    justify-content: center;
   }
-  
+
   .header__user-cart-link {
     width: 129px;
   }
-
-  
 }

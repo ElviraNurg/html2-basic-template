@@ -1,22 +1,24 @@
 /* здесь используйте глобальные переменные */
+
+/* Colors */
 $base-white: #ffffff;
 $black: #000000;
-$base-black:#333333;
-$base-grey:#BDBDBD;
-$base-secondary:#F0EBFF;
-$base-primary:#7859CF;
-$primary-light:#9070EC;
-$light-grey: #E2E2E2;
-$active-button:#593CAC;
-//background colors
-$lightest-grey:#F8F8F8;
-$flat-white:#F3EBE1;
-$lavender:#EAE6FC;
-$espresso: #E5E6E8;
+$base-black: #333333;
+$base-grey: #bdbdbd;
+$base-secondary: #f0ebff;
+$base-primary: #7859cf;
+$primary-light: #9070ec;
+$light-grey: #e2e2e2;
+$active-button: #593cac;
+$lightest-grey: #f8f8f8;
+$flat-white: #f3ebe1;
+$lavender: #eae6fc;
+$espresso: #e5e6e8;
+$primary-darker: #593cac;
+$primary-opacity: rgba(120, 89, 207, 0.25);
 
-// Viewports
+/* Viewports */
 
 $tablet-width: 768px;
 $desktop-width: 1440px;
 $mobile-width-only: 767px;
-
